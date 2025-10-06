@@ -1,4 +1,4 @@
-![Open Source at XMOS](https://github.com/xmos/.github/blob/main/images/v1a.png)
+![Open Source at XMOS](https://github.com/xmos/.github/blob/main/images/banner.png)
 
 ## Your gateway to open-source projects — powered by XMOS, built for developers.
 
