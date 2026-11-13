@@ -12,3 +12,4 @@ Open source drives choice, innovation, and community in XMOS technology — givi
 * [Tools install guide](https://www.xmos.com/documentation/XM-014363-PC/html/installation/index.html)
 * [Tools user guide](https://www.xmos.com/documentation/XM-014363-PC/html/intro/index.html)
 
+**Third-party code:** XMOS forks and mirrors of upstream projects are hosted separately in [xmosforks](https://github.com/xmosforks).
