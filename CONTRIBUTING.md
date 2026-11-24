@@ -1,15 +1,38 @@
 # Contributing to XMOS repositories
 
-Pull requests to public XMOS repositories are welcome. This guide applies to every repository in
-the XMOS organisation unless a repository provides its own contribution guidance, which takes
-precedence.
+Issues and pull requests on public XMOS repositories are welcome. This guide applies to every
+repository in the XMOS organisation unless a repository provides its own contribution guidance,
+which takes precedence.
 
-## Before you start
+## Reporting an issue
 
-- For questions and design discussion, use the [XCORE developer forum](https://www.xcore.com).
-- For a suspected bug, raise a GitHub issue in the affected repository. Include the XTC Tools
-  version, the hardware, the `manifest.txt` from your build directory and a minimal reproduction.
-- For issues that need formal tracking, use [XMOS support](https://www.xmos.com/support).
+A GitHub issue is the right place for a suspected bug in a specific repository, or a request for a
+change to it. Other routes suit other needs:
+
+- For how-do-I questions and design discussion, use the
+  [XCORE developer forum](https://www.xcore.com).
+- For a product issue that needs formal tracking, raise a ticket with
+  [XMOS support](https://www.xmos.com/support).
+
+Before raising an issue, search the repository's open and closed issues, and check the Known
+issues section of its `README.rst`. Raise the issue in the repository that contains the problem.
+If you are not sure which one that is, ask on the forum first.
+
+XMOS can act fastest on a report that pins down exactly what was built and what happened. Please
+include:
+
+- the XTC Tools version;
+- the version of every component in the build. Building with XCommon CMake writes a
+  `manifest.txt` to the build directory that records this, so attach it;
+- the hardware: which XMOS device or board, and any external components that matter;
+- a minimal reproduction: the smallest application and the shortest sequence of commands that
+  shows the problem; and
+- what you expected and what you observed instead.
+
+Do not include confidential source or product details in a public issue. Use XMOS support for
+anything that cannot be shared publicly.
+
+If you have a fix as well as a report, a pull request is welcome.
 
 ## Branches
 
